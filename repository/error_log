@@ -1,0 +1,12 @@
+[22-Jan-2019 11:15:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/wavepalmapps/public_html/dbs/respository/framework/configClass.php:5
+Stack trace:
+#0 /home/wavepalmapps/public_html/dbs/respository/framework/configClass.php(5): PDO->__construct('mysql:host=loca...', 'root', 'Oyeade1.')
+#1 /home/wavepalmapps/public_html/dbs/respository/framework/otherClasses.php(2): include('/home/wavepalma...')
+#2 /home/wavepalmapps/public_html/dbs/respository/account.php(2): include('/home/wavepalma...')
+#3 {main}
+  thrown in /home/wavepalmapps/public_html/dbs/respository/framework/configClass.php on line 5
+[22-Jan-2019 11:22:11 UTC] PHP Notice:  Undefined index: users in /home/wavepalmapps/public_html/dbs/respository/framework/otherClasses.php on line 138
+[22-Jan-2019 11:22:11 UTC] PHP Notice:  Undefined index: users in /home/wavepalmapps/public_html/dbs/respository/framework/otherClasses.php on line 138
+[22-Jan-2019 11:31:19 UTC] PHP Notice:  Undefined index: users in /home/wavepalmapps/public_html/dbs/repository/framework/otherClasses.php on line 138
+[22-Jan-2019 11:31:19 UTC] PHP Notice:  Undefined index: users in /home/wavepalmapps/public_html/dbs/repository/framework/otherClasses.php on line 138
+[22-Jan-2019 11:42:40 UTC] PHP Notice:  Undefined index: certificate_no in /home/wavepalmapps/public_html/dbs/repository/process-search.php on line 22
